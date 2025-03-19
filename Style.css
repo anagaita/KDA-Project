@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Merienda;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    text-align: center;
+}
+
+.song-name {
+    text-align: center;
+}
+
+.main-footer {
+    background-image: url(kda/pastel.jpg);
+    background-size: cover;
+    padding: .5em 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Indie Flower";
+    color: blueviolet;
+    font-size: 2.5em;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3); 
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Merienda";
+    color: black;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.conteiner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    padding: .75em;
+}
+
+.main-header {
+    background-image: url("kda/pastel.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .7em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: 2em 40% 2em 40%;
+    color: black;
+    border: 2px solid  blueviolet;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    color: #725ea0;
+    border: 2px solid #725ea0;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 25%;
+    padding: 1em;
+}
+
+.btn-play:hover {
+    background-color: rgba(133, 105, 133, 0.312);
+}
+
+.song-row {
+    border: 1px solid black;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(198, 180, 216);
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: Merienda;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shop-item-imagem {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-shop {
+    color: #725ea0;
+    border: 2px solid #725ea0;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1em;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border-color: white;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: rgb(118, 21, 21);
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 2%;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    font-size: 1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    background-color: #cbbcee;
+    border-color: #725ea0;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.btn-purchase:hover {
+    background-color: #9086a5;
+}
